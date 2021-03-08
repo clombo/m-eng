@@ -1,0 +1,116 @@
+.smallTile{
+    text-align: center;
+    vertical-align: center!important;
+    height: 150px;
+    width: 150px;
+    transition: all 0.3s;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.712);
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.smallTile p{
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.smallTile:hover a{
+    color: black!important;
+    text-decoration: none!important;
+}
+
+/* Hovering effects of Menu Tile start */
+
+.smallTile:hover {
+    border-radius: 10px;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.3), 0 16px 30px 0 rgba(0, 0, 0, 0.39);
+    background-color: #AC101D;
+    border: 1px solid red;
+}
+
+.smallTile_mill{
+    background-image: url("/img/Stencils/IMG-20200214-WA0011.jpg");
+}
+
+.smallTile_hydrocyclone{
+    background-image: url("/img/Stencils/HydroCyclone.png");
+}
+
+.smallTile_thickener{
+    background-image: url("/img/Stencils/Thickener.png");
+}
+
+.smallTile_vibratingfeeder{
+    background-image: url("/img/Stencils/Vibrating Feeder.png");
+}
+
+.smallTile_beltconveyor{
+    background-image: url("/img/Stencils/Belt Conveyor.png");
+}
+
+.smallTile_trommel{
+    background-image: url("/img/Stencils/Trommel Screen.png");
+}
+
+.smallTile_screening{
+    background-image: url("/img/Stencils/Screening.png");
+}
+
+.smallTile_generic{
+    background-image: url("/img/Stencils/IMG-20200214-WA0006.jpg");
+}
+
+.backButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButton a{
+    text-decoration:none;
+}
+
+.backButtonStyle{
+    width: 200px;
+    background: #500000;
+    color: white!important;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.backButtonStyle:hover{
+    border-radius: 5px;
+    background: #a10000;
+}
+
+hr {
+	position: relative;
+	background: #6d0000;
+	border: 0.5px solid #6d0000;
+}
+hr:after, hr:before {
+	left: 50%;
+	border: 1px solid rgba(172, 255, 47, 0);
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+hr:after {
+	border-color: rgba(58, 92, 114, 0);
+	border-top-color: #a00000;
+	margin-left: -30px;
+}
+hr:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #a10000;
+	border-width: 5px;
+
+}

@@ -1,0 +1,135 @@
+.row{
+    margin: auto!important;
+    padding: 10px;
+    border-bottom: 0.5px solid #50000031;
+    align-items: left!important;
+    text-align: left;
+}
+
+.row_alt{
+    margin: auto!important;
+    padding: 0px;
+    border-bottom: 0px solid #50000031;
+    align-items: left!important;
+    text-align: left;
+}
+
+.nox_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+.divHeading{
+    text-align: center!important;
+}
+
+input {
+    padding: 5px;
+    transition: all 0.3s;
+    border-radius: 3px;
+    border: 0.5px solid #a10000;
+    outline:none;
+    height: 30px;
+    width: 80px;
+}
+
+.input_style {
+    padding: 5px;
+    transition: all 0.3s;
+    border-radius: 3px;
+    border: 0.5px solid #858585;
+    outline:none;
+    height: 30px;
+    width: 80px;
+}
+
+.divHeading, .itemHeading, #msid, #msil, .itemContent {
+    background-color: white;
+    color:#500000;
+    padding-top: 10px;
+    border-left: 0.5px solid #500000;
+    border-right: 0.5px solid #500000;
+    text-align: left;
+}
+
+.divHeading, #msid{
+    border-top: 0.5px solid #500000;
+    border-bottom: none;
+}
+
+.itemContent{
+    border-bottom: 0.5px solid #500000;
+}
+
+input {
+    
+    padding: 5px!important;
+    transition: all 0.3s!important;
+    border-radius: 3px!important;
+    border: 0.5px solid #a10000!important;
+    outline:none!important;
+    height: 30px!important;
+    width: 80px!important;
+}
+
+select {
+    
+    padding: 5px!important;
+    transition: all 0.3s!important;
+    border-radius: 3px!important;
+    border: 0.5px solid #a10000!important;
+    outline:none!important;
+    height: 30px!important;
+}
+
+select:focus{
+    border-radius: 10px!important;
+    background-color:#fff4f4!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+input:focus{
+    border-radius: 10px!important;
+    background-color:#fff4f4!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+input:disabled{
+    border: 0.5px solid #858585!important;
+}
+
+.smallTile{
+    text-align: center;
+    vertical-align: center!important;
+    height: 150px;
+    width: 150px;
+    transition: all 0.3s;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.712);
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.smallTile a{
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.smallTile:hover a{
+    color: black!important;
+    text-decoration: none!important;
+}
+
+/* Hovering effects of Menu Tile start */
+
+.smallTile:hover {
+    border-radius: 10px;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.3), 0 16px 30px 0 rgba(0, 0, 0, 0.39);
+    background-color: #AC101D;
+    border: 1px solid red;
+}
